@@ -9,7 +9,7 @@ public class SearchName {
     }
     static int search(String [] name, String target) {
         if (name.length == 0) {
-            return -1;
+            return -1;    //return nothing
         }
         for (int i = 0; i < name.length; i++) {
             String element = name[i];

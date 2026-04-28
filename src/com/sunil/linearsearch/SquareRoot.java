@@ -9,7 +9,7 @@ public class SquareRoot {
     static int find(int x){
     int start = 1;
     int ans = 0;
-    int end = x;
+    int end = x;  //time complexity log(n).
     while(start <= end) {  // if they don't find small number then we go left to check!
         int mid = start + (end - start) / 2;
         if (mid <= x / mid) {   // mid*mid <x both are same of overflow we used optimised.
